@@ -1,0 +1,6 @@
+{
+  "name": "EduGuard",
+  "description": "An administrative MDM companion for monitoring activities, setting screen-time limits, and managing web filters on educational devices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
