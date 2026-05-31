@@ -1,185 +1,207 @@
 # EduShield
 
 <p align="center">
-  <img src="presec_logo.png" alt="PRESEC Logo" width="200">
+  <img src="assets/presec_logo.png" alt="PRESEC Logo" width="180">
 </p>
 
 <h1 align="center">EduShield</h1>
 
 <p align="center">
-Secure • Monitor • Manage
+  Secure • Monitor • Manage
 </p>
 
 <p align="center">
-An Advanced Mobile Device Management Platform for Educational Institutions and Organizations
+  A Mobile Device Management Platform Built for Schools, Organizations, and Enterprises
 </p>
 
 ---
 
 ## About EduShield
 
-EduShield is a next-generation Mobile Device Management (MDM) platform designed to help schools, universities, businesses, and organizations securely manage devices, enforce digital policies, and monitor device activity from a centralized dashboard.
+EduShield is a powerful Android-based Mobile Device Management (MDM) platform designed to help educational institutions and organizations securely manage devices under their administration.
 
-EduShield empowers administrators to maintain secure and productive digital environments while providing comprehensive management tools for organization-owned devices.
+Built entirely in **Android Studio**, EduShield allows administrators to monitor device activity, enforce security policies, manage applications, control internet access, and oversee organization-owned devices through a centralized management system.
+
+The platform is designed to improve productivity, enhance security, and simplify device administration across large groups of users.
 
 ---
 
 ## Developed By
 
-**EduShield** was designed and developed by students of **Presbyterian Boys' Secondary School (PRESEC)** as an innovation project focused on cybersecurity, digital safety, and modern device management.
+EduShield was designed and developed by students of **Presbyterian Boys' Secondary School (PRESEC)** as an innovation project focused on cybersecurity, digital safety, and educational technology.
 
 ---
 
-## Features
+## Key Features
 
-### Device Management
+### QR-Based Organization Enrollment
 
-* Remote device enrollment
+* Join organizations instantly using QR codes
+* Fast device onboarding
+* Secure organization linking
+* Simplified deployment process
+* Multi-device organization support
+
+### Device Monitoring
+
+* Real-time device status tracking
 * Device inventory management
-* Device grouping and organization
-* Real-time device status monitoring
-* Remote policy deployment
+* Online/offline monitoring
+* Device identification and organization grouping
+
+### Application Monitoring
+
+* Track installed applications
+* Log application launches
+* Monitor application usage time
+* Detect unauthorized applications
+* Application activity reports
+
+### Website Monitoring
+
+* Log visited websites
+* Track browsing activity
+* Generate web usage reports
+* Domain filtering and monitoring
 
 ### Application Control
 
-* Application allowlists and blocklists
-* Application installation management
-* Application usage tracking
-* Restricted application enforcement
-* Application compliance monitoring
+* Application allowlists
+* Application blocklists
+* Restricted application policies
+* Organization-wide application management
 
-### Website & Internet Control
+### Network Protection
 
+* Built-in VPN integration
+* Organization-controlled internet access
 * Website filtering
-* Educational content enforcement
-* Domain allowlists and blocklists
-* Safe browsing policies
-* Custom internet restrictions
+* Domain blocking
+* Secure traffic routing
 
-### Activity Monitoring
+### Activity Logging
 
 * Application activity logs
-* Website access records
-* Device activity timeline
-* User session tracking
-* Productivity insights
-
-### VPN & Network Protection
-
-* Secure VPN integration
-* Protected network access
-* Traffic routing management
-* Organizational network policies
-* Secure remote connectivity
+* Website activity logs
+* Device event history
+* Administrative audit logs
+* User activity timeline
 
 ### Administrative Dashboard
 
-* Live device monitoring
-* Device health overview
-* User activity reports
+* Organization overview
+* Device management interface
+* Activity analytics
+* Security monitoring
+* Device compliance reports
+
+### Security Features
+
+* Device policy enforcement
+* Restricted access controls
 * Security alerts
-* Compliance statistics
-
-### Security Tools
-
-* Device lock functionality
-* Password policy enforcement
-* Security compliance checks
-* Unauthorized software detection
-* Risk monitoring system
-
-### Analytics & Reporting
-
-* Usage analytics
-* Device statistics
-* Productivity reports
-* Security summaries
-* Organizational insights
-
----
-
-## Why EduShield?
-
-Educational institutions face increasing challenges in managing digital devices while maintaining productive learning environments.
-
-EduShield helps organizations:
-
-* Improve cybersecurity
-* Reduce distractions
-* Enforce acceptable-use policies
-* Monitor device compliance
-* Simplify large-scale device management
-* Gain actionable insights through analytics
-
----
-
-## System Architecture
-
-```text
-                    ┌─────────────────┐
-                    │ Admin Dashboard │
-                    └────────┬────────┘
-                             │
-                             ▼
-                  ┌─────────────────────┐
-                  │  EduShield Server   │
-                  └─────────┬───────────┘
-                            │
-          ┌─────────────────┼─────────────────┐
-          ▼                 ▼                 ▼
-    Device Agent      VPN Service       Database
-```
+* Device compliance monitoring
+* Remote administrative actions
 
 ---
 
 ## Technology Stack
 
-### Frontend
+### Mobile Application
 
-* React
-* Next.js
-* Tailwind CSS
+* Java
+* Kotlin
+* Android Studio
+* Android SDK
 
-### Backend
+### Backend Services
 
-* Go
-* Node.js
-* REST API
-
-### Database
-
-* PostgreSQL
-* Redis
+* REST APIs
+* Authentication Services
+* Database Services
 
 ### Security
 
-* TLS Encryption
-* JWT Authentication
+* QR Authentication
 * VPN Integration
+* Encrypted Communications
+* Role-Based Access Control
 
-### Monitoring
+---
 
-* Logging Engine
-* Analytics Service
-* Device Management Agent
+## System Workflow
+
+```text
+Administrator Creates Organization
+                │
+                ▼
+      EduShield Generates QR Code
+                │
+                ▼
+         User Scans QR Code
+                │
+                ▼
+      Device Joins Organization
+                │
+                ▼
+ Policy & Security Rules Applied
+                │
+                ▼
+ Activity Monitoring Begins
+```
+
+---
+
+## Use Cases
+
+### Schools
+
+* Student tablet management
+* School laptop administration
+* Classroom device monitoring
+* Digital learning enforcement
+
+### Universities
+
+* Campus device management
+* Student organization devices
+* Academic resource protection
+
+### Businesses
+
+* Employee device management
+* Corporate policy enforcement
+* Productivity monitoring
+
+### Organizations
+
+* Device fleet management
+* Security compliance
+* Centralized administration
+
+---
+
+## Project Goals
+
+* Improve digital security
+* Simplify device management
+* Reduce unauthorized software usage
+* Protect organizational resources
+* Improve productivity visibility
+* Create safer digital learning environments
 
 ---
 
 ## Future Roadmap
 
 * AI-powered threat detection
-* Classroom management features
-* Automated policy recommendations
-* Cross-platform device support
-* Advanced behavioral analytics
-* Cloud-native deployment
-* Real-time alerting system
-
----
-
-## Privacy & Compliance
-
-EduShield is intended for deployment on organization-managed devices. Monitoring and management features should be implemented in accordance with applicable privacy regulations, institutional policies, and user notification requirements.
+* Advanced analytics dashboard
+* Cross-platform support
+* Windows device management
+* Remote device actions
+* Cloud synchronization
+* Real-time notifications
+* Behavioral anomaly detection
 
 ---
 
@@ -189,7 +211,7 @@ Developed by students of
 
 **Presbyterian Boys' Secondary School (PRESEC)**
 
-Creating innovative technology solutions for safer and smarter digital environments.
+Building innovative solutions for education, cybersecurity, and digital device management.
 
 ---
 
@@ -197,4 +219,4 @@ Creating innovative technology solutions for safer and smarter digital environme
 
 Copyright © EduShield Team
 
-Developed by PRESEC Students.
+All Rights Reserved.
